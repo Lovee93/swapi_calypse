@@ -7,7 +7,8 @@ class App extends Component {
     this.getRandomInt = this.getRandomInt.bind(this);
     this.state = {
       random_num: this.getRandomInt(1,50),
-      name: ''
+      name: '',
+      img_src: ''
     }
   }
   
@@ -23,7 +24,8 @@ class App extends Component {
       .then(response => response.json())
       .then(data => {
         this.setState({
-          name: data.name
+          name: data.name,
+          img_src: `https://robohash.org/${this.state.random_num}?set=set5`
         })
       }
     )
@@ -31,18 +33,18 @@ class App extends Component {
   
   render() {
 
-    const { random_num, name } = this.state;
+    const { random_num, name, img_src } = this.state;
 
     return (
       <div className="App">
         <header className="App-header">
-          <img src={`https://robohash.org/${random_num}?set=set5`} />
+          <img src={img_src} />
           {
-            name === '' ? 
+            img_src === '' ? 
               <h2> Loading a Star Warrior for you... </h2>
             :
               <h2>
-                Hey {name}
+                Hey 👋, {name}
               </h2>
           }
           
