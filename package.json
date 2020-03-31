@@ -1,5 +1,6 @@
 {
   "name": "swapi_calypse",
+  "homepage": "https://lovee93.github.io/swapi_calypse",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
