@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/swapi_calypse/static/css/main.523f09c5.chunk.css",
+    "main.js": "/swapi_calypse/static/js/main.bc27ca44.chunk.js",
+    "main.js.map": "/swapi_calypse/static/js/main.bc27ca44.chunk.js.map",
+    "runtime-main.js": "/swapi_calypse/static/js/runtime-main.2c2b3f8b.js",
+    "runtime-main.js.map": "/swapi_calypse/static/js/runtime-main.2c2b3f8b.js.map",
+    "static/js/2.29bcd78c.chunk.js": "/swapi_calypse/static/js/2.29bcd78c.chunk.js",
+    "static/js/2.29bcd78c.chunk.js.map": "/swapi_calypse/static/js/2.29bcd78c.chunk.js.map",
+    "index.html": "/swapi_calypse/index.html",
+    "precache-manifest.24e01d1a093314ca72115c6780b9f022.js": "/swapi_calypse/precache-manifest.24e01d1a093314ca72115c6780b9f022.js",
+    "service-worker.js": "/swapi_calypse/service-worker.js",
+    "static/css/main.523f09c5.chunk.css.map": "/swapi_calypse/static/css/main.523f09c5.chunk.css.map",
+    "static/js/2.29bcd78c.chunk.js.LICENSE.txt": "/swapi_calypse/static/js/2.29bcd78c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c2b3f8b.js",
+    "static/js/2.29bcd78c.chunk.js",
+    "static/css/main.523f09c5.chunk.css",
+    "static/js/main.bc27ca44.chunk.js"
+  ]
+}
